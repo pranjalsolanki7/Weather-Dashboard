@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weather-card">
+            <h1>Weather Dashboard</h1>
+            <!-- Search Bar -->
+            <input type="text" id="city" placeholder="Enter city name..." onkeyup="getWeather(event)">
+            <!-- Weather Info -->
+            <div id="weather-info">
+                <div id="temperature"></div>
+                <div id="weather-condition"></div>
+                <div id="time"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

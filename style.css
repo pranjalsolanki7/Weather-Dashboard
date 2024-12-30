@@ -1,0 +1,71 @@
+/* Basic styles for layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the weather card */
+.container {
+    text-align: center;
+}
+
+/* Styling the weather card */
+.weather-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Search bar styling */
+#city {
+    width: 80%;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Weather info styling */
+#weather-info {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Optional feature: Dynamic weather background colors */
+.sunny {
+    background-color: #ffcc00;
+}
+
+.cloudy {
+    background-color: #b0c4de;
+}
+
+.rainy {
+    background-color: #add8e6;
+}
+
+.clear {
+    background-color: #f2f2f2;
+}
+
+#temperature, #weather-condition, #time {
+    margin: 10px 0;
+}
